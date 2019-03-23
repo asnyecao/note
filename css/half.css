@@ -1,0 +1,94 @@
+*{margin: 0;padding: 0}
+.container{
+    width: 80%;
+    text-align: center;
+}
+.nav{
+    padding-top: 20px;
+    float: right;
+    padding-bottom: 20px;
+}
+.navbar-default .navbar-nav > li > a {
+    text-decoration: none;
+    margin-left: 10px;
+    color: #333;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color: #2dae36;
+}
+.navbar-header img{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.title{
+    text-align: center;
+    margin-top: 50px;
+}
+.header{
+    height: 42px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #2dae36;
+}
+.div-p {
+    margin-top: 50px;
+    width: 120px;
+    color: white;
+    font-size: 20px;
+    line-height: 42px;
+    text-align: center;
+    background: #2dae36;
+    border-radius: 16px 0 16px 0;
+}
+.div-v{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+[class^="col-md-3"] img{
+    width: 80px;
+    height: 80px;
+}
+[class^="col-md-4"] img{
+    width: 345px;
+    height: 260px;
+    margin-top: 20px;
+}
+.footer{
+    margin-top: 50px;
+    padding-top: 24px;
+    padding-bottom: 16px;
+    box-sizing: border-box;
+    background-color: #ddd;
+    text-align: center;
+    color: #666;
+}
+.changepage a{
+    line-height: 20px;
+    font-size: 14px;
+    color: #666666;
+    text-decoration: none;
+}
+.changepage a:hover{
+    color: #2dae36;
+}
+.row{
+    margin-top: 30px;
+}
+.copyright{
+    font-size: 14px;
+    color: #777777;
+    margin-top: 40px;
+}
+.contact{
+    margin-top: -10px;
+}
+.contact p{
+    font-size: 14px;
+    color: #777777;
+    line-height: 40px;
+}
+#saoma{
+    position: fixed;
+    right: 0;
+    bottom: 150px;
+    z-index: 100;
+}

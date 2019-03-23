@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>小米登录</title>
+    <link rel="stylesheet" href="../css/mimall.css">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+</head>
+<body>
+    
+    <div class="wrap">
+        <!-- 标题；小米商城 -->
+        <div class="title-mi">
+            <a class="title-img" href=""><img src="../images/title-mi.png" width: 200px; height: 50px; alt=""></a>
+        </div>
+        <!-- 插图和登陆 -->
+        <div class="content">
+    <a class="wrap-mi9" href="https://www.mi.com/mi9/" ><img  src="../images/mi9.png" alt="#"></a>
+    <!-- 登陆块 -->
+    <div class="form">
+            <div class="nav">
+                <span class="active">账号登录</span>
+                <span class="nav-line"></span>
+                <span>扫码登录</span>
+                
+            </div>
+            <div class="form-content">
+                <div class="account">
+                    <p><input type="text" placeholder=" 邮箱/手机号码/小米ID"></p>
+                    <p><input type="password" placeholder=" 密码"></p>
+                    <div class="nav-btn">
+                            <input type="submit" value="登录">
+                            <p> <a href="">手机短信登录/注册</a>
+                            <a class="crumb" href="">立即注册</a>
+                            <span class="btn-line">|</span>
+                            <a href="">忘记密码?</a>
+                            </p>
+                            <div class="nav-tip">
+                            <p>———————其他方式登录——————</p>
+                            <a class="QQ" href=""><img src="../images/QQ.png" alt=""></a>
+                            <a class="weibo" href=""><img src="../images/微博.png" alt=""></a>
+                            <a class="zhifu" href=""><img src="../images/支付宝.png" alt=""></a>
+                            <a class="weixin" href=""><img src="../images/微信.png" alt=""></a>
+                            </div>
+                            
+                        </div>
+                </div>
+ 
+                    
+            
+                <div class="saomao">
+                    <img src="../images/erweima.png" alt="">
+                    <p><span>使用</span><a class="app" href="">小米商城APP</a><span>扫一扫</span></p>
+                    <p>小米手机可打开 「设置」>「小米帐号」 扫码登录</p>
+                </div>
+            </div>
+        
+       
+    </div> 
+    </div>
+</div>
+<div class="botton">
+    <ul class="botton-ul">
+        <li><a class="botton-ul-vie" href="">简体</a></li>
+        <li><a href="">|</a></li>
+        <li><a class="botton-ul-vie" href="">繁体</a></li>
+        <li><a href="">|</a></li>
+        <li><a class="botton-ul-vie" href="">English</a></li>
+        <li><a href="">|</a></li>
+        <li><a class="botton-ul-vie" href="">常见问题</a></li>
+        <li><a href="">|</a></li>
+        <li><a class="botton-ul-vie" href="">隐私政策</a></li>
+    </ul>
+    <br>
+    <p class="botton-p">
+        <span>小米公司版权所有-京ICP备10046444-</span>
+        <img src="../images/guohui.png" alt="#">
+        <span>京公网安备11010802020134号-京ICP证110507号</span>
+        </p>
+</div>
+<script>
+        $(".nav span").click(function(){
+            $(this).addClass("active").siblings().removeClass("active");
+            console.log($(this).index())
+            if($(this).index()==0){
+                $(".form-content>div").eq(0).show().siblings().hide()   
+            }else {
+                $(".form-content>div").eq(1).show().siblings().hide()
+            } 
+        })
+    </script>
+
+</body>
+</html>

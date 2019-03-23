@@ -1,0 +1,58 @@
+*{margin: 0;padding: 0}
+.head{
+    background-color: pink;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+}
+.all01{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.all001{
+    line-height: 50px;
+}
+.img{
+    width: 500px;
+}
+.all001:hover{
+    color: green;
+    cursor: pointer;
+}
+.all02:hover{
+    color: pink;
+    cursor: pointer;
+}
+.all03{
+    line-height: 50px;
+
+}
+.all03:hover{
+    color: pink;
+    cursor: pointer;
+}
+li:hover {
+    color: deeppink;
+    cursor: pointer;
+
+}
+
+li {
+    margin-top: 10px;
+}
+
+dt,
+dd {
+    margin-top: 10px;
+}
+
+dt:hover {
+    color: deeppink;
+    cursor: pointer;
+}
+
+dd:hover {
+    color: deeppink;
+    cursor: pointer;
+}

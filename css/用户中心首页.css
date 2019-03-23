@@ -1,0 +1,66 @@
+*{margin: 0;padding: 0}
+.hand-user{
+    width:786px;
+    height: 150px;
+    background-color: #F0F0F0;
+    position: relative;
+}
+.img-fir{
+    float: left;
+    width: 108px;
+    height: 108px;
+    margin-left: 30px;
+    margin-top: 20px;
+    position: absolute;
+}
+.user-down{
+    float: left;
+    width: 115px;
+    height: 80px;
+    margin-top: 30px;
+    margin-left: 155px;
+    position: absolute;
+}
+.img-sec{
+    font-size: 18px; 
+}
+.user-down p:nth-child(02){
+    margin-top: 16px;
+}
+.user-line{
+    width:1px;
+    height:95px;
+    border-right: 1px solid #CECECE;
+    margin-left: 320px;
+    margin-top: 25px;
+    position: absolute;
+}
+.img-thir{
+    position: absolute;
+    margin-left: 360px;
+    margin-top: 56px;
+}
+.user-chat{
+    position: absolute;
+    margin-left: 415px;
+    margin-top: 55px;
+}
+.user-chat>p,.user-phone>p{
+    font-size: 13px;
+}
+.tie{
+    color: #1AC0C0;
+}
+.tie:hover{
+   cursor: pointer;
+}
+.img-forth{
+    position: absolute;
+    margin-top: 56px;
+    margin-left:585px;
+}
+.user-phone{
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 640px;
+}
